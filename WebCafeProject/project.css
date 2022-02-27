@@ -1,0 +1,221 @@
+ul{
+    list-style-type: none;
+	margin:0;
+	padding: 0;
+    background-color: #333;
+    display:block;
+    justify-content: space-around;
+    position: fixed;
+  }
+li {
+    float: left;
+    display: inline;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+li a:hover{
+    background-color:#111;
+}
+.wrap{
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+  font-size: 20px;
+ 
+}
+.overview{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+}
+.img{
+    background-image: url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color:white;
+    background-attachment: fixed;
+    font-size: 40px;
+    padding-top: 50px;
+    background-size: cover;
+}
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content{
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-family:"Segoe UI",Arial,sans-serif;
+  
+}
+h5{
+     font-weight: 600;
+}
+
+.quote{
+    padding-left: 20px;
+}
+input[type=text], input[type=number], input[type=datetime-local] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover {
+  background-color: #45a049;
+
+}
+
+.text-grey{color:#757575;}
+.eatdrink{
+  padding-top:48px!important;
+  padding-bottom:48px!important;
+  padding:0.01em 16px;
+  box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  border: 1px solid black;
+}
+.ed{
+  text-align: center;
+}
+.col{width:49.99999%;}
+span{
+    float: right;
+}
+.tag{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family:"Segoe UI",Arial,sans-serif;
+    display: inline;
+    border-radius: 3px;
+    padding: 3px;
+}
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+.input-radio,
+.input-checkbox {
+  
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.clue{
+   margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+form {
+  background: var(--color-darkblue-alpha);
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: green;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  
+}
